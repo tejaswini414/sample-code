@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+.general {
+    color: red;
+    border: 3px solid red;
+    padding: 0px 6px 6px 6px;
+    margin: 100px;
+}
+</style>
+<script>
+function  add() {
+    let num1 = parseFloat(document.getElementById("num1").value);
+    let num2 = parseInt(document.getElementById("num2").value);
+    let sum = num1 +num2;
+    document.getElementById("result").textContent = sum;
+}
+
+
+</script>
+</head>
+<body>
+
+<h1 id="main">This is a Heading</h1>
+<h2>This is a Heading</h2>
+<h3>This is a Heading</h3>
+<h4>This is a Heading</h4>
+<h5>This is a Heading</h5>
+<h6 class="general">This is a Heading</h6>
+<p class="general">This is a paragraph.</p>
+<a class="general" href="https://www.google.com">Google</a>
+<input type="number" id="num1">
+<input type="number" id="num2">
+<button onclick="add()">Add</button>
+<p id="result"></p>
+</body>
+</html>
