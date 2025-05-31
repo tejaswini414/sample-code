@@ -5,3 +5,18 @@ https://github.com/github/gitignore/blob/mainteju/Node.gitignore
 
 
 tejaswini123
+
+
+
+
+
+working directory    local remoterepo copy                                remote repo
+VSCode               repo (new branches, new changes)                     repo (new branches, new changes)
+
+
+git fetch 
+git merge
+
+
+
+git pull
