@@ -1,4 +1,7 @@
 
-Gitignore
+Gitignore tejaswini for node js files
 
-https://github.com/github/gitignore/blob/main/Node.gitignore
+https://github.com/github/gitignore/blob/mainteju/Node.gitignore
+
+
+tejaswini123
